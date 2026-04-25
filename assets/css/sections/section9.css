@@ -1,0 +1,131 @@
+
+.audit-section {
+  padding: 90px 0;
+  background: linear-gradient(135deg, #0b132b, #1c2541);
+  color: #fff;
+}
+
+
+.section-tag {
+  color: #3b82f6;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.section-title {
+  font-size: 34px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.section-desc {
+  font-size: 15px;
+  color: #cbd5e1;
+}
+
+
+.audit-list {
+  margin-top: 15px;
+  padding-left: 18px;
+}
+
+.audit-list li {
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #e5e7eb;
+}
+
+
+.report-box {
+  background: rgba(255,255,255,0.08);
+  padding: 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+}
+
+.report-box h5 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.report-box p {
+  font-size: 13px;
+  color: #cbd5e1;
+}
+
+.report-box h4 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #22c55e;
+}
+
+.report-box span {
+  font-size: 13px;
+  color: #9ca3af;
+}
+
+.report-box ul {
+  padding-left: 18px;
+  margin-top: 10px;
+}
+
+.report-box ul li {
+  font-size: 13px;
+  color: #e5e7eb;
+}
+
+.audit-form {
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  color: #000;
+}
+
+
+.audit-form h4 {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+
+.audit-form input,
+.audit-form select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+
+.audit-form input:focus,
+.audit-form select:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+
+.audit-form .btn {
+  background: #2563eb;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.audit-form .btn:hover {
+  background: #1e40af;
+}
+
+
+@media (max-width: 992px) {
+  .audit-form {
+    margin-top: 30px;
+  }
+
+  .section-title {
+    font-size: 26px;
+  }
+}

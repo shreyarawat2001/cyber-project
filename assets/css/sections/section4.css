@@ -1,0 +1,70 @@
+
+.industry-section-dark {
+  padding: 90px 0;
+  background: linear-gradient(135deg, #0b132b, #1c2541);
+  color: #fff;
+}
+
+
+.section-tag {
+  color: #3b82f6;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.section-title {
+  font-size: 34px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.section-desc {
+  max-width: 650px;
+  margin: 0 auto;
+  font-size: 15px;
+  color: #cbd5e1;
+}
+
+
+.industry-card-dark {
+  background: rgba(255,255,255,0.05);
+  border-radius: 14px;
+  padding: 20px 10px;
+  text-align: center;
+  transition: 0.3s;
+  border: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(6px);
+  height: 100%;
+}
+
+.industry-card-dark i {
+  font-size: 22px;
+  color: #3b82f6;
+  margin-bottom: 10px;
+}
+
+
+.industry-card-dark p {
+  font-size: 14px;
+  margin: 0;
+  color: #e5e7eb;
+}
+
+
+.industry-card-dark:hover {
+  transform: translateY(-6px);
+  background: #2563eb;
+  border-color: #2563eb;
+}
+
+.industry-card-dark:hover i,
+.industry-card-dark:hover p {
+  color: #fff;
+}
+
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 26px;
+  }
+}

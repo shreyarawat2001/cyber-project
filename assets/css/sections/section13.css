@@ -1,0 +1,84 @@
+
+.final-cta {
+  padding: 100px 0;
+  background: linear-gradient(135deg, #0b132b, #1e3a8a);
+  color: #fff;
+}
+
+
+.cta-title {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.cta-sub {
+  max-width: 750px;
+  margin: 15px auto;
+  color: #cbd5e1;
+  font-size: 15px;
+}
+
+
+.cta-buttons {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+
+.cta-buttons .btn {
+  padding: 12px 26px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+
+.cta-buttons .btn-primary {
+  background: #2563eb;
+  border: none;
+}
+
+.cta-buttons .btn-primary:hover {
+  background: #1e40af;
+}
+
+
+.cta-buttons .btn-outline-light {
+  border: 1px solid #fff;
+}
+
+.cta-buttons .btn-outline-light:hover {
+  background: #fff;
+  color: #000;
+}
+
+
+.cta-buttons .btn-light {
+  background: #fff;
+  color: #000;
+}
+
+.cta-buttons .btn-light:hover {
+  background: #e5e7eb;
+}
+
+
+.cta-points {
+  margin-top: 25px;
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+.cta-points p {
+  margin: 5px 0;
+}
+
+
+@media (max-width: 768px) {
+  .cta-title {
+    font-size: 26px;
+  }
+}

@@ -1,0 +1,110 @@
+
+.case-section {
+  padding: 90px 0;
+  background: #f9fafb;
+}
+
+
+.section-tag {
+  color: #2563eb;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.section-title {
+  font-size: 34px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.section-desc {
+  max-width: 650px;
+  margin: 0 auto;
+  font-size: 15px;
+  color: #6b7280;
+}
+
+
+.case-card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 25px;
+  height: 100%;
+  border: 1px solid #eee;
+  transition: 0.3s;
+}
+
+
+.case-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+
+.case-icon {
+  width: 45px;
+  height: 45px;
+    object-fit: contain;
+  background: #eff6ff;   /* light bg for image */
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.case-icon img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+
+.case-card h5 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #2563eb;
+  margin-bottom: 5px;
+}
+
+
+.case-card h6 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+
+.case-card p {
+  font-size: 14px;
+  color: #4b5563;
+  margin-bottom: 10px;
+}
+
+
+.case-card .highlight {
+  background: #ecfdf5;
+  color: #065f46;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+
+.case-card ul {
+  padding-left: 18px;
+  margin-top: 10px;
+}
+
+.case-card ul li {
+  font-size: 14px;
+  color: #374151;
+  margin-bottom: 5px;
+}
+
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 26px;
+  }
+}

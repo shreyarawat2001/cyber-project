@@ -1,0 +1,77 @@
+
+.threat-section {
+  padding: 90px 0;
+  background: #071c2f;
+  color: #fff;
+}
+
+.section-tag {
+  color: #60a5fa;
+  font-weight: 600;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.section-desc {
+  max-width: 700px;
+  margin: 10px auto;
+  color: #cbd5e1;
+}
+
+
+.threat-card {
+  background: rgba(255,255,255,0.05);
+  padding: 25px;
+  border-radius: 12px;
+  transition: 0.3s;
+  height: 100%;
+}
+
+.threat-card:hover {
+  background: rgba(255,255,255,0.1);
+  transform: translateY(-5px);
+}
+
+
+.threat-card .icon {
+  width: 50px;
+  height: 50px;
+  background: #2563eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+
+.threat-card h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.threat-card p {
+  font-size: 14px;
+  color: #cbd5e1;
+}
+
+
+.threat-card h4 {
+  color: #60a5fa;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.threat-card span {
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+.icon img {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
