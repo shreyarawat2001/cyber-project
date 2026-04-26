@@ -13,6 +13,8 @@
 
 <link rel="canonical" href="<?= $canonical ?? 'https://sisgain.com/cybersecurity-services' ?>">
 
+<link rel="icon" href="assets/images/favicon-logo.jpg" type="image/jpeg">
+
 <meta name="robots" content="index, follow">
 <meta name="author" content="SISGAIN">
 
